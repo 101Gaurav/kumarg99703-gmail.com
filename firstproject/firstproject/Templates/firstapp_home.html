@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{% extends "base.html" %}
+<head>
+    <meta charset="UTF-8">
+    <title>D_WEB</title>
+
+{% block content %}
+
+    <h1> ****STATS FOR {{name}}**** </h1>
+
+    <form action="search" method='post'>
+
+        {% csrf_token %}
+
+
+        Enter country : <input type="text", name="n1"><br>
+        <input type="submit"><br>
+        <br>
+        <br>
+
+    </form>
+    <form action="stats">
+
+        <input type="submit", value="COVID_STATS" >
+
+    </form>
+
+</head>
+
+
+</body>
+{% endblock %}
+</html>

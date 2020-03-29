@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID_STATS</title>
+
+    {%for i in cov%}
+
+        <br>
+        <br>
+        COUNTRY: {{i.country}}<br>
+        CASES:   {{i.total_cases}}<br>
+        CURED:   {{i.cured}}<br>
+        DEATHS:  {{i.deaths}}<br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    {%endfor%}
+
+
+</head>
+<body>
+
+</body>
+</html>
