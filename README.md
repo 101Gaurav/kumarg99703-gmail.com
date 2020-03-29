@@ -1,2 +1,2 @@
-# kumarg99703-gmail.com
+# COVID_STATS
 Basic django code for COVID stats
